@@ -72,3 +72,7 @@ main {
     color:#02182B;
     padding: 5px;
 }
+.css-exercises {
+    display: inline;
+    background: blue;
+}
