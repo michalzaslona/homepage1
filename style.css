@@ -73,6 +73,11 @@ main {
     padding: 5px;
 }
 .css-exercises {
-    display: inline;
-    background: blue;
+    background: rgba(23, 195, 201, 0.308);
+  width: 500px;
+   height: 100px;
+   display:inline-block;
+   font-style: inherit;
+   /*  */
+   
 }
