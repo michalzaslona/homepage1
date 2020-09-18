@@ -74,10 +74,21 @@ main {
 }
 .css-exercises {
     background: rgba(23, 195, 201, 0.308);
-  width: 500px;
-   height: 100px;
+   min-width: 500px;
+   min-height: 100px;
    display:inline-block;
    font-style: inherit;
-   /*  */
-   
+   /*  */  
+}
+.red-bold {
+    color: red;
+}
+.exe-links {
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    text-decoration: unset;
+    color: black;
+    background: brown;
+    cursor: pointer;
 }
