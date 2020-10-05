@@ -1,6 +1,5 @@
 main {
     background:#448FA3;
-    width: 600px;
 }
 .top-menu {
     text-align:center;
@@ -32,8 +31,6 @@ main {
     background:#448FA3; 
     border: #D7263D solid 3px;
 }
-
-
 
 .footer {
     text-align: center;
