@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nauka frontendu WTF</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
 
-<body>
-    <header class="top-menu">
-        <nav>
-            <a class="menu" href="index.html">Strona główna</a>
-            <a class="menu" href="html.html">HTML</a>
-            <a class="menu" href="css.html">CSS</a>
-            <a class="menu" href="java-script.html">JavaScript</a>
-            <a class="menu" href="shortcuts-VSC.html">Skróty</a>
-            <a class="menu" href="notes.html">Notatki</a>
-            <a class="menu" href="english-words.html">Angielski</a>
-        </nav>
+  <body>
+    <header class="navigation">
+      <nav>
+        <a class="navigation__menu" href="index.html">Strona główna</a>
+        <a class="navigation__menu" href="html.html">HTML</a>
+        <a class="navigation__menu" href="css.html">CSS</a>
+        <a class="navigation__menu" href="java-script.html">JavaScript</a>
+        <a class="navigation__menu" href="shortcuts-VSC.html">Skróty</a>
+        <a class="navigation__menu" href="notes.html">Notatki</a>
+        <a class="navigation__menu" href="english-words.html">Angielski</a>
+      </nav>
     </header>
     <main>
-        <header class="top-header">
-            <h1 class="top-heading-1">WTF COTENFRONTEND 01.09.2020 - ??</h1>
-            <img class="logo-html-vsc-notes" src="images/html-logo.png" alt="logo HTMLa">
-            <h1 class="top-heading-2">NAUKA HTML-a</h1>
-        </header>
-        <!-- tu wstawiam nową sekcję i do niej uzupełniam -->
-
-        <section class="border-content">
-            <h2 class="heading-2">HTML TAGI</h2>
-            <p class="content">HTML=a)klamra b)znacznik/tag c)atrybut="wartość" d)klamra e)TREŚĆ f)klamara g)/
-                h)znacznik/tag
-                i)klamra <br>Nowe znaczniki to: <b>br</b> - przełamuje linie i zaczynamy od nowej,
-                znacznik
-                samozamykający się, nie trzeba otweirającego i zamykającego tylko zamykający i się wykona.
-                <!-- znacznik br użyty tutaj zarówno w wersji <br></br> jak i w wersji samozamykającej się-->
-                <b> b i strong oraz i i em. </b>b i i nie mają znaczenia semantycznego - służą tylko do
-                wyróżnienia
-                wśród tekstu który ich otacza (tylko wyróżnienie wizualne ale bez znaczenia) zaś strong i em
-                mają
-                znaczenie semantyczne i służą: strong podkreśleniu wyższości frazy zaś em kiedy coś jest
-                faktycznie
-                zapisane ale ma inne znaczenie np. Moim ulubioną czynnością jest słuchanie żony;-) <b>znacznik
-                    a</b>
-                używany do tworzenia linków zewnętrznych oraz łącz wewnątrz dokumentu. a href plus "adres strony
-                internetowej" to do stron internetwoych zewnętrznych. <a href="https://www.onet.pl/">Onet</a></p>
-            <h2 class="heading-2">NOTATKI HTML</h2>
-            <p class="content"> HTML - semantyka/nadaje sens treści. </p>
-        </section>
+      <header class="header">
+        <h1 class="header__title header__title--main">
+          WTF COTENFRONTEND 01.09.2020 - PRÓBA SERWERA
+        </h1>
+        <img
+          class="header__logo"src="images/html-logo.png"
+          alt="logo HTMLa"
+        />
+        <h1 class="header__title header__title--subtitle">NAUKA HTML-a</h1>
+      </header>
+      <!-- tu wstawiam nową sekcję i do niej uzupełniam -->
+      <section class="content">
+        <h2 class="content__header">ZNACZNIKI HTML</h2>
+        <p class="content__description">
+          HTML=a)klamra b)znacznik/tag c)atrybut="wartość" d)klamra e)TREŚĆ
+          f)klamara g)/ h)znacznik/tag i)klamra <br />Nowe znaczniki to:
+          <b>br</b> - przełamuje linie i zaczynamy od nowej, znacznik
+          samozamykający się, nie trzeba otweirającego i zamykającego tylko
+          zamykający i się wykona.
+          <!-- znacznik br użyty tutaj zarówno w wersji <br></br> jak i w wersji samozamykającej się-->
+          <b> b i strong oraz i i em. </b>b i i nie mają znaczenia semantycznego
+          - służą tylko do wyróżnienia wśród tekstu który ich otacza (tylko
+          wyróżnienie wizualne ale bez znaczenia) zaś strong i em mają znaczenie
+          semantyczne i służą: strong podkreśleniu wyższości frazy zaś em kiedy
+          coś jest faktycznie zapisane ale ma inne znaczenie np. Moim ulubioną
+          czynnością jest słuchanie żony;-) <b>znacznik a</b> używany do
+          tworzenia linków zewnętrznych oraz łącz wewnątrz dokumentu. a href
+          plus "adres strony internetowej" to do stron internetwoych
+          zewnętrznych. <a href="https://www.onet.pl/">Onet</a>
+        </p>
+        <h2 class="content__header">NOTATKI HTML</h2>
+        <p class="content__description"> html 5 jest fajowy.
+       </p>
+      </section>
     </main>
     <footer class="footer">
-        <b>KOLEJNY ETAP ŻYCIA MICHAŁA: MICHAŁ NAUCZY SIĘ FRONTENDU!!!</b>
+      <b>KOLEJNY ETAP ŻYCIA MICHAŁA: MICHAŁ NAUCZY SIĘ FRONTENDU!!!</b>
     </footer>
-</body>
+  </body>
+</html>

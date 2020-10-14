@@ -1,91 +1,100 @@
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+  
+}
 main {
-    background:#448FA3;
+  background: #448fa3;
 }
-.top-menu {
-    text-align:center;
-    background:#448FA3; 
-    font-size: 24px;
-    padding: 10px;
+.navigation {
+  text-align: center;
+  background: #448fa3;
+  font-size: 24px;
+  padding: 10px;
 }
-.menu {
-    color:#5e363c;
-    font-style: initial;
-    padding: 12px;
+.navigation__menu {
+  color: #5e363c;
+  font-style: initial;
+  padding: 12px;
+  margin-right: 25px;
 }
-.top-header {
-    text-align: center;
-    padding: 5px;
-    background:#448FA3;
+.header {
+  text-align: center;
+  padding: 5px;
+  background: #448fa3;
 }
-.top-heading-1 {
-    font-size: 50px;
-    color: #02182B;
-    text-align: center;
-    padding: 3px;
+.header__title {
+  font-size: 50px;
+  color: #02182b;
+  text-align: center;
+  padding: 3px;
 }
-.top-heading-2 {
-    color:#68C5DB;
-    text-align: center;
-    padding: 3px;
-    font-size: 22px;
-    background:#448FA3; 
-    border: #D7263D solid 3px;
+.header__title--main {
+  border: 3px solid rgba(1, 76, 13, 0.61);
+}
+.header__title--subtitle {
+  font-size: 40px;
+  background: #85d2e7;
 }
 
 .footer {
-    text-align: center;
-    background:#448FA3;
-    border: 3px solid #D7263D;
-    color:#68C5DB;
-    padding: 5px;
+  text-align: center;
+  background: #448fa3;
+  border: 3px solid #d7263d;
+  color: #68c5db;
+  padding: 5px;
 }
 
-.images-michal {
-    width: 250px;
+.header__image {
+  width: 250px;
 }
-.logo-html-vsc-notes {
-    width: 250px;
+.header__logo {
+  width: 250px;
 }
-.vsc-logo {
-    width: 300px;
+.header__logo--shortcuts {
+  width: 300px;
 }
-.css-logo {
-    width: 150px;
+.header__logo--css {
+  width: 150px;
 }
 .dictionary-logo {
-    width: 170px;
-   
+  width: 170px;
 }
-.js-logo {
-    width: 115px;
+.header__logo--js {
+  width: 115px;
 }
 
-.heading-2 {
-    text-align:justify;
-    background: #448FA3;
-    color: #D7263D;
-    padding: 10px;  
+.content__header {
+  text-align: center;
+  background: #448fa3;
+  color: #d7263d;
+  padding: 10px;
 }
-.content {
-    color:#02182B;
-    padding: 5px;
+.content__description {
+  color: #02182b;
+  padding: 30px;
+  text-align: center;
+  background: rgb(124, 194, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
 }
 .css-exercises {
-    background: rgba(4, 47, 240, 0.932);
-    width: 400px;
-    height: 400px;
-  
-   /*  */  
+  background: rgba(4, 47, 240, 0.932);
+  width: 400px;
+  height: 400px;
+
+  /*  */
 }
 .red-bold {
-    color: red;
+  color: red;
 }
 .exe-links {
-    display:block;
-    width: 100%;
-    height: 10%;
-    text-decoration: unset;
-    color: black;
-    background: brown;
-    cursor: pointer;
+  display: block;
+  width: 100%;
+  height: 10%;
+  text-decoration: unset;
+  color: black;
+  background: brown;
+  cursor: pointer;
 }

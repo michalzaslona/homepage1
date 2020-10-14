@@ -1,16 +1,23 @@
-
 .css-exercises {
-    color:black;  
-    background: hotpink;
-    width: 200px;
-    height: 500px;
-    padding: 30px;
-    box-sizing: border-box;
+  color: black;
+  background: hotpink;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 200px;
+  overflow: hidden;
 }
 
-.css-1 {
-    background: yellow;
+.float-left {
+  background: yellow;
   float: left;
-  width:50%;
-  height:100px;
+  width: 20%;
+  height: 300px;
+}
+
+.float-right {
+  background: yellow;
+  float: right;
+  width: 20%;
+  height: 100px;
 }
