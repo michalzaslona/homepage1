@@ -8,37 +8,37 @@
   </head>
 
   <body>
-    <header class="top-menu">
+    <header class="navigation">
       <nav>
-        <a class="menu" href="index.html">Strona główna</a>
-        <a class="menu" href="html.html">HTML</a>
-        <a class="menu" href="css.html">CSS</a>
-        <a class="menu" href="java-script.html">JavaScript</a>
-        <a class="menu" href="shortcuts-VSC.html">Skróty</a>
-        <a class="menu" href="notes.html">Notatki</a>
-        <a class="menu" href="english-words.html">Angielski</a>
+        <a class="navigation__menu" href="index.html">Strona główna</a>
+        <a class="navigation__menu" href="html.html">HTML</a>
+        <a class="navigation__menu" href="css.html">CSS</a>
+        <a class="navigation__menu" href="java-script.html">JavaScript</a>
+        <a class="navigation__menu" href="shortcuts-VSC.html">Skróty</a>
+        <a class="navigation__menu" href="notes.html">Notatki</a>
+        <a class="navigation__menu" href="english-words.html">Angielski</a>
       </nav>
     </header>
     <main>
-      <header class="top-header">
-        <h1 class="top-heading-1">WTF COTENFRONTEND 01.09.2020 - ??</h1>
-        <img
-          class="logo-html-vsc-notes"
-          src="images/notes.jpg"
-          alt="zdjęcie notesu"
-        />
-        <h1 class="top-heading-2">NOTATKI Z KURSU COTENFRONTEND.PL</h1>
+      <header class="header">
+        <h1 class="header__title header__title--main">
+          WTF COTENFRONTEND 01.09.2020 - ??
+        </h1>
+        <img class="header__logo header__logo--notes" src="images/notes.jpg" alt="zdjęcie notesu"/>
+        <h1 class="header__title header__title--subtitle">
+          NOTATKI Z KURSU COTENFRONTEND.PL
+        </h1>
       </header>
       <!-- tu wstawiam nową sekcję i do niej uzupełniam -->
 
-      <section class="border-content">
-        <h2 class="heading-2">TYDZIEŃ I IP TEGO KOMPUTERA: 192.168.0.157</h2>
-        <p class="content">
+      <section class="content">
+        <h2 class="content__header">TYDZIEŃ I IP TEGO KOMPUTERA: 192.168.0.157</h2>
+        <p class="content__description">
           <b>Dużo</b> <strong>informacji</strong>...<i>szczególnie</i>
           <em>istotna i rozwijająca zabawa</em> z szablonem INDUSTRIOS
         </p>
-        <h2 class="heading-2">TYDZIEŃ II</h2>
-        <p class="content">
+        <h2 class="content__header">TYDZIEŃ II</h2>
+        <p class="content__description">
           1. Wstęp do programowania, porównanie do gotowania herbaty. Pytanie
           warunkowe if/jeśli to tak czy nie?<br />
           2. Warstwy frontendu: 0 - treść; 1. HTML - semantyka/nadaje sens
@@ -49,11 +49,11 @@
           znacznik link atrybuty: rel (stylesheet), href(style.css), type
           (text/css).<br />
           5. Przydatny link do CSS od Korsana
-          <a class="menu" href="https://www.w3.org/TR/CSS/">CSS</a><br />
+          <a class="special__menu" href="https://www.w3.org/TR/CSS/">CSS</a><br />
           6. Poznane polecenia w CSS: <b>color, background</b><br />
         </p>
-        <h2 class="heading-2">TYDZIEŃ III</h2>
-        <p class="content">
+        <h2 class="content__header">TYDZIEŃ III</h2>
+        <p class="content__description">
           W niedzielę 06.09.2020 zacząłem tylko oglądać 3 tydzień....to be
           continued:-)<br />
           Poniedziałek 07.09.2020: Kanban- pamiętać o dokładnym opisie DoD w
@@ -74,7 +74,7 @@
           czynnością jest słuchanie żony;-) <b>znacznik a</b> używany do
           tworzenia linków zewnętrznych oraz łącz wewnątrz dokumentu. a href
           plus "adres strony internetowej" to do stron internetwoych
-          zewnętrznych. <a href="https://www.onet.pl/">Onet</a>
+          zewnętrznych. <a class = "special__menu"href="https://www.onet.pl/">ONET</a>
           <!-- znacznik a do stron internetowych to <a href "onet.pl"> Serwis informacyjny</a> href i www.onet.pl to dwa atrybutu przy znaczniku. -->
           <br />
           <i
