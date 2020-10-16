@@ -1,19 +1,21 @@
 body {
-  max-width: 100vw;  
+  max-width: 100vw;
+  background: linear-gradient(to right, #4b134f, #c94b4b);
 }
 
 main {
-  background: #448fa3;
+  background: linear-gradient(to right, #4b134f, #c94b4b);
 }
 
 .navigation {
   text-align: center;
-  background: #448fa3;
+  /*background: #448fa3;*/
   font-size: 24px;
   padding: 10px;
+  background: linear-gradient(to right, #4b134f, #c94b4b);
 }
 .navigation__menu {
-  color: #5e363c;
+  color: #ffffffbb;
   font-style: initial;
   padding: 12px;
   margin-right: 25px;
@@ -28,6 +30,7 @@ main {
   text-align: center;
   padding: 5px;
   background: #448fa3;
+  background: linear-gradient(to right, #4b134f, #c94b4b);
 }
 
 .header__title {
@@ -42,6 +45,7 @@ main {
 .header__title--subtitle {
   font-size: 40px;
   background: #85d2e7;
+  background: linear-gradient(to right, #4b134f, #c94b4b);
 }
 
 .footer {
@@ -59,7 +63,7 @@ main {
   width: 250px;
 }
 .header__logo--notes {
-  width:250 px;
+  width: 250 px;
 }
 .header__logo--shortcuts {
   width: 300px;
@@ -77,17 +81,22 @@ main {
 .content__header {
   text-align: center;
   background: #448fa3;
-  color: #d7263d;
+  color: #d654548f;
   padding: 10px;
+  background: linear-gradient(to left, #4b134f, #c94b4b);
 }
 .content__description {
-  color: #02182b;
+  color: #f1c9d5;
   padding: 30px;
   text-align: center;
   background: rgb(124, 194, 255);
   margin-left: 20px;
   margin-right: 20px;
   box-sizing: border-box;
+  background: linear-gradient(to right, #4b134f, #c94b4b);
+}
+.content__description--dictionary {
+  text-align: justify;
 }
 .css-exercises {
   background: rgba(4, 47, 240, 0.932);
