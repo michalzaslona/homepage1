@@ -83,11 +83,17 @@ const firstObject = {
     isOperatig:true,
     levels: 357,
     name: 'Mr Curtain',
-    target: (firstTarget) => {
-console.log (`${firstTarget} destroyed :-)`)
-    }
+   
 }
-console.log (firstObject);
+console.log (firstObject.age);
 
+const secondObject = {
+    age: firstObject.age,
+}
 
+console.log (secondObject.age);
 
+firstObject.age=35
+
+console.log (firstObject.age);
+console.log (secondObject.age);

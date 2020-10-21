@@ -117,3 +117,21 @@ main {
   background: brown;
   cursor: pointer;
 }
+.list__months {
+  color:white;
+  list-style-type: decimal;
+}
+
+.list__days {
+list-style: upper-roman;
+color:hotpink;
+}
+dl {
+  color:hotpink;
+}
+.table {
+  color:white; 
+  border: 2px solid white;
+  width: 100%;
+  height: 200px;
+}
